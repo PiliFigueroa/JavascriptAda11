@@ -16,13 +16,25 @@ pedirDocumentacion('Eres culpable?');
 */
 
 // EJERCICIO 2
+/*
+let anioNacimiento = parseInt(prompt('Que anio naciste?', 0))
 const detectarGeneracion = (anio) => {
-    if (anio ) {
-        
+    if (anio >= 1930 && anio <= 1948) {
+        console.log('Eres Silent Generation')
+    } else if (anio >= 1949 && anio <= 1968) {
+        console.log('Eres Baby Boom')
+    } else if (anio >= 1969 && anio <= 1980) {
+        console.log('Eres Generacion X')
+    } else if (anio >= 1981 && anio <= 1993) {
+        console.log('Eres Millennial!')
+    } else if (anio >= 1994 && anio <= 2010) {
+        console.log('Eres Centenial!')
     } else {
-        
+        console.log('Eres ancestral')
     }
 }
+detectarGeneracion(anioNacimiento)
+*/
 
 // EJERCICIO 3
 /*
