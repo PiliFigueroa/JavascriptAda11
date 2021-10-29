@@ -65,3 +65,75 @@ puedeRenovarCarnet(false, false, true)  // false
 puedeRenovarCarnet(false, false, false) // false
 */
 
+/* EJERCICIO 7
+Crear una función puedeGraduarse que tome como argumentos dos números asistencia y materiasAprobadas y un booleano tesisAprobada, 
+y devuelva true si una persona puede gruadarse o false si no. Una persona puede graduarse si tiene un 75% de asistencia o más, 
+50 materias aprobadas o más y la tesis aprobada.
+
+Se espera que al ejecutar los siguientes ejemplos, se obtengan los outputs aclarados:
+
+puedeGraduarse(80, 50, true)  // true
+puedeGraduarse(80, 50, false) // false
+puedeGraduarse(80, 45, true)  // false
+puedeGraduarse(80, 45, false) // false
+puedeGraduarse(65, 50, true)  // false
+puedeGraduarse(33, 55, false) // false
+puedeGraduarse(42, 45, true)  // false
+puedeGraduarse(28, 45, false) // false
+*/
+
+/* EJERCICIO 8
+Crear una función esParOImpar que acepte como argumento un numero y devuelva el string par si el numero es par, o el string impar si el numero es impar.
+
+Se espera que al ejecutar los siguientes ejemplos, se obtengan los outputs aclarados:
+
+console.log(esParOImpar(3)); // 'impar'
+console.log(esParOImpar(10)); // 'par'
+console.log(esParOImpar(31)); // 'impar'
+console.log(esParOImpar(98)); // 'par'
+console.log(esParOImpar(55)); // 'impar'
+console.log(esParOImpar(1042)); // 'par'
+*/
+
+/* EJERCICIO 9
+Crear una función esPositivoONegativo que acepte como argumento un numero y devuelva el string positivo si el numero es positivo, 
+o el string negativo si el numero es negativo
+
+esPositivoONegativo(3)  // 'positivo'
+esPositivoONegativo(-5) // 'negativo'
+*/
+
+/* EJERCICIO 10
+Crear una función obtenerDiasMes que tome como argumento un string mes y devuelva un número dependiendo de la cantidad de días que tenga ese mes
+*/
+
+/* EJERCICIO 11
+Crear una función obtenerSensacion que tome como argumento un número temperatura y devuelva un string dependiendo de la temperatura, con las siguientes reglas:
+
+// Menor a 0°	                            => ¡Está helando!
+// Mayor o igual a 0° y menor a 15°	        => ¡Hace frío!
+// Mayor o igual a 15° y menor a 25°	    => Está lindo
+// Mayor o igual a entre 25° y menor a 30°	=> Hace calor
+// Mayor o igual de 30°	                    => ¡Hace mucho calor!
+*/
+
+/* EJERCICIO 12 => OJITO CON ESTE !!!
+Crear una función jugarPiedraPapelTijera que tome como argumentos dos strings a y b que representen una jugada (piedra, papel, tijera) 
+y dependiendo el devuelva un string con un mensaje avisando qué jugada ganó (o si hubo empate).
+
+jugarPiedraPapelTijera('tijera', 'piedra')  // ¡Ganó piedra!
+jugarPiedraPapelTijera('piedra', 'tijera')  // ¡Ganó piedra!
+jugarPiedraPapelTijera('papel', 'piedra')   // ¡Ganó papel!
+jugarPiedraPapelTijera('piedra', 'papel')   // ¡Ganó papel!
+jugarPiedraPapelTijera('papel', 'tijera')   // ¡Ganó tijera!
+jugarPiedraPapelTijera('tijera', 'papel')   // ¡Ganó tijera!
+jugarPiedraPapelTijera('piedra', 'piedra')  // ¡Empate!
+jugarPiedraPapelTijera('papel', 'papel')    // ¡Empate!
+jugarPiedraPapelTijera('tijera', 'tijera')  // ¡Empate!
+*/
+
+/* EJERCICIO 13
+Crear un programa que muestre el dinero inicial, y que permita retirar dinero preguntando cuánto se desea retirar, y mostrando 
+el dinero restante a continuación. Si se intenta retirar más dinero del disponible, o no cuenta con dinero disponible, 
+debe mostrar un mensaje alertándolo e impedir seguir retirando.
+*/

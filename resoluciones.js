@@ -76,3 +76,34 @@ const puedeRenovarCarnet = (pasoTests, tieneMultasImpagas, pagoImpuestos) => {
     }
 }
 */
+
+// EJERCICIO 12
+/*
+const jugarPiedraPapelTijera = (jugadorA, jugadorB) => {
+    if (jugadorA == 'tijera') {
+        if (jugadorB == 'tijera') {
+            console.log('Empate')
+        } else if (jugadorB == 'piedra') {
+            console.log('Gano piedra!')
+        } else {
+            console.log('Gano tijera!')
+        }
+    } else if (jugadorA == 'papel') {
+        if (jugadorB == 'tijera') {
+            console.log('Gano tijera!')
+        } else if (jugadorB == 'piedra') {
+            console.log('Gano papel!')
+        } else {
+            console.log('Empate')
+        }
+    } else {
+        if (jugadorB == 'papel') {
+            console.log('Gana papel')
+        } else if (jugadorB == 'piedra') {
+            console.log('Empate')
+        } else {
+            console.log('Gana piedra!')
+        }
+    }
+}
+*/
